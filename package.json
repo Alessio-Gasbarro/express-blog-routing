@@ -4,6 +4,8 @@
   "description": "Esercizio: express-blog-routing\r Descrizione:\r -Creare un file di routing (routers/posts.js) che conterrà le rotte necessario per l'entità post.\r -All'interno creare le rotte per le operazioni CRUD (Index, Show, Create, Update e Delete)\r -Tutte le risposte saranno dei testi che confermeranno l’operazione che il server deve eseguire, secondo le convenzioni REST.\r Ad esempio:\r -Se viene chiamata /posts col verbo GET ci aspettiamo “Lista dei post”;\r -Se viene chiamato /posts/1 col verbo DELETE ci aspettiamo “Cancellazione del post 1”\r e via dicendo…\r -Registrare il router dentro app.js con il prefisso posts/.\r Numero di push minimo: 10",
   "main": "posts.js",
   "scripts": {
+    "start": "node app.js",
+    "watch": "node --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
